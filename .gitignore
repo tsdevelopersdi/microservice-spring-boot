@@ -1,0 +1,47 @@
+# Java / Maven
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# IDE
+.idea/
+*.iml
+*.iws
+.project
+.classpath
+.settings/
+.factorypath
+*.launch
+*.vscode/
+
+# Spring Boot
+*.pid
+spring.pid
+
+# DB / volume data
+mysql_data/
+volume-data/
+**/data/
+**/tempo-data/
+
+# Node / Frontend
+node_modules/
+dist/
+.angular/
+*.env
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Docker
+.env
+
+# OS
+.DS_Store
+Thumbs.db
